@@ -1,6 +1,6 @@
 # kirby3-kirbytext-image
 
-Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)) and `srcset` to each image added through "image" tag. Default width is 100%, height set to "auto". Overrides the original image tag (path: kirby/config/tags.php)
+Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)) and `srcset` to each image added through "image" tag. Default width is 100%, height set to "auto". Overrides the original image tag (path: ``kirby/config/tags.php``)
 
 ## Output
 
