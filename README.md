@@ -1,6 +1,6 @@
 # Kirby Image Plugin
 
-Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)) and `srcset` to each image added with the `(image: …)` tag. Default width is 100%, height set to "auto". Overrides the default `(image: …)` KirbyTag located in `kirby/config/tags.php`.
+Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)) and `srcset` to each image added with the `(image: …)` tag. Default width is 100%, height set to "auto". Overrides the `(image: …)` KirbyTag located in `kirby/config/tags.php`.
 
 More info on overriding the default tags: [getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags](https://getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags).
 
