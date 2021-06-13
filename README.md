@@ -1,8 +1,8 @@
 # Kirby Image Plugin
 
-Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)) and `srcset` to each image added with the `(image: …)` tag. Default width is 100%, height set to "auto". Overrides the `(image: …)` KirbyTag located in `kirby/config/tags.php`.
+Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)), and `srcset` to each image added with an [`(image: …)`](https://getkirby.com/docs/reference/text/kirbytags/image) tag. The default width is 100%, height set to "auto". 
 
-More info on overriding the default tags: [getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags](https://getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags).
+Overrides `(image: …)` KirbyTag located in `kirby/config/tags.php`. More info on overriding default tags: [getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags](https://getkirby.com/docs/reference/plugins/extensions/kirbytags#overriding-default-kirbytags).
 
 ## Output
 
@@ -17,15 +17,9 @@ More info on overriding the default tags: [getkirby.com/docs/reference/plugins/e
 ```
 
 ## Setup
-1. Put the `image` folder in `site/plugins`, such as:
-```
-site
-└── plugins
-    └── image
-        └── index.php
-```
 
-2. Add [lazysizes](https://www.npmjs.com/package/lazysizes) to your project
+1. Add [lazysizes](https://www.npmjs.com/package/lazysizes) to the project
+2. Download and copy this repository to `/site/plugins`
 
 ## Use in a template
 
