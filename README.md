@@ -1,4 +1,4 @@
-# Kirby Image Plugin
+# Kirbytext Image Plugin
 
 Prevents reflow, adds lazy loading (requires [lazysizes](https://www.npmjs.com/package/lazysizes)), and `srcset` to each image added with an [`(image: …)`](https://getkirby.com/docs/reference/text/kirbytags/image) tag. The default width is 100%, height set to "auto". 
 
